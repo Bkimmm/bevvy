@@ -3,6 +3,7 @@ import Searchbar from './component/Searchbar'
 import Navbar from './component/Navbar'
 
 const App: React.FC = () => {
+  
   return (
     <div>
       <Navbar/>

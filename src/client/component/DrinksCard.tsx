@@ -20,9 +20,7 @@ const DrinksCard: React.FC<Props> = (props) => {
     <Box sx={{backgroundColor:'black'}}>
         <h2>{strDrink}</h2>
         <a href={url} target='_blank'>Ingredients</a>
-        
         <img className='drink-image' src={strDrinkThumb}/>
-
     </Box>
   )
 }
